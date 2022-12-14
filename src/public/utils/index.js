@@ -7,7 +7,7 @@ const submit = () => {
 			password: password
 		}
 	}).then(res => res.text().then((result) => {
-		console.log(result);
+		alert(result);
 	}));
 
 };
